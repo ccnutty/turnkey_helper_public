@@ -13,9 +13,13 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@noble/curves": "^1.9.0",
     "@solana/web3.js": "^1.98.2",
+    "@turnkey/encoding": "^0.4.0",
+    "@turnkey/http": "^3.2.0",
     "@turnkey/sdk-server": "^3.0.1",
     "@turnkey/solana": "^1.0.21",
+    "@turnkey/wallet-stamper": "^1.0.3",
     "cors": "^2.8.5",
     "dotenv": "^16.5.0",
     "ethers": "^6.13.7",

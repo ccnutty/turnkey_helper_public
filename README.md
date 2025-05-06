@@ -1,7 +1,7 @@
 copy .env.local.template to .env.local
 
 ```shell
-cp cp .env.local.template .env.local
+cp .env.local.template .env.local
 ```
 
 

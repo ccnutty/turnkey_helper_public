@@ -1,3 +1,6 @@
+node js version 18.20.0
+
+
 copy .env.local.template to .env.local
 
 ```shell
@@ -17,7 +20,7 @@ pnpm build
 
 start
 ```shell
-pnpm start
+pnpm dev
 ```
 
 

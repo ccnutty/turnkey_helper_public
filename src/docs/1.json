@@ -1,0 +1,134 @@
+{
+  "subOrganizationId": "ab1289bb-e62b-4629-bc33-cecf756cd35c",
+  "wallet": {
+    "walletId": "4abaf3f6-a4be-5e42-aca1-8bcef8af2079",
+    "addresses": ["AD98J42M4TC89RSuKx1GxnAhGsQjeGrpUCeXZHzXYbyf"]
+  },
+  "rootUserIds": [
+    "403fb6b4-f826-47f3-bdb1-6f269937b909",
+    "031925d3-d889-45ef-a7fb-4c6321b3918b"
+  ],
+  "activity": {
+    "id": "01967b7b-e980-743b-9d48-528a6fdd32c1",
+    "organizationId": "989431c1-d42d-41c5-a44a-863a59c85166",
+    "status": "ACTIVITY_STATUS_COMPLETED",
+    "type": "ACTIVITY_TYPE_CREATE_SUB_ORGANIZATION_V7",
+    "intent": {
+      "createSubOrganizationIntentV7": {
+        "subOrganizationName": "User - Ad14ndBoyZ9t7MbyzeYMJPEgYP5NCWYKBregjnTynFkx",
+        "rootUsers": [
+          {
+            "userName": "User - Ad14ndBoyZ9t7MbyzeYMJPEgYP5NCWYKBregjnTynFkx",
+            "apiKeys": [
+              {
+                "apiKeyName": "User - Ad14ndBoyZ9t7MbyzeYMJPEgYP5NCWYKBregjnTynFkx",
+                "publicKey": "8ef22a50068aeb1c2617247f6151f58b86a3016e2638c8c591a1b211da6a17f5",
+                "curveType": "API_KEY_CURVE_ED25519"
+              }
+            ],
+            "authenticators": [],
+            "oauthProviders": []
+          },
+          {
+            "userName": "Delegated Account - Ad14ndBoyZ9t7MbyzeYMJPEgYP5NCWYKBregjnTynFkx",
+            "apiKeys": [
+              {
+                "apiKeyName": "Delegated Account - Ad14ndBoyZ9t7MbyzeYMJPEgYP5NCWYKBregjnTynFkx",
+                "publicKey": "02954aceda7ef07cd73803fd4039128b3827dc3fa2018e3d7a3aa059e1cbed0109",
+                "curveType": "API_KEY_CURVE_SECP256K1"
+              }
+            ],
+            "authenticators": [],
+            "oauthProviders": []
+          }
+        ],
+        "rootQuorumThreshold": 1,
+        "wallet": {
+          "walletName": "Default Solana Wallet",
+          "accounts": [
+            {
+              "curve": "CURVE_ED25519",
+              "pathFormat": "PATH_FORMAT_BIP32",
+              "path": "m/44'/501'/0'/0'",
+              "addressFormat": "ADDRESS_FORMAT_SOLANA"
+            }
+          ],
+          "mnemonicLength": 12
+        }
+      }
+    },
+    "result": {
+      "createSubOrganizationResultV7": {
+        "subOrganizationId": "ab1289bb-e62b-4629-bc33-cecf756cd35c",
+        "wallet": {
+          "walletId": "4abaf3f6-a4be-5e42-aca1-8bcef8af2079",
+          "addresses": ["AD98J42M4TC89RSuKx1GxnAhGsQjeGrpUCeXZHzXYbyf"]
+        },
+        "rootUserIds": [
+          "403fb6b4-f826-47f3-bdb1-6f269937b909",
+          "031925d3-d889-45ef-a7fb-4c6321b3918b"
+        ]
+      }
+    },
+    "votes": [
+      {
+        "id": "539686df-a522-4ff9-b545-649c76c62133",
+        "userId": "56a7eca9-01e7-4a95-8592-a2ad589406da",
+        "user": {
+          "userId": "56a7eca9-01e7-4a95-8592-a2ad589406da",
+          "userName": "Root user",
+          "userEmail": "ccnutty@proton.me",
+          "authenticators": [
+            {
+              "transports": [
+                "AUTHENTICATOR_TRANSPORT_HYBRID",
+                "AUTHENTICATOR_TRANSPORT_INTERNAL"
+              ],
+              "attestationType": "none",
+              "aaguid": "6puNZk0BHSE85La0jLV11A",
+              "credentialId": "46lRc3rU7QlgZQN7nuc1Xg",
+              "model": "Security key",
+              "credential": {
+                "publicKey": "pQECAyYgASFYIKHhcl9RJxRQZ3CTytnpROG19SJu6I1NWEpWRdd6L7dnIlggSvyPwBToNUuz6V5s1W66bn7qdWdW4Xavk5w4k0TxSpM",
+                "type": "CREDENTIAL_TYPE_WEBAUTHN_AUTHENTICATOR"
+              },
+              "authenticatorId": "76f6f72d-a0ad-407a-a11c-6df08585c476",
+              "authenticatorName": "1KTest",
+              "createdAt": { "seconds": "1744517935", "nanos": "0" },
+              "updatedAt": { "seconds": "1744517935", "nanos": "0" }
+            }
+          ],
+          "apiKeys": [
+            {
+              "credential": {
+                "publicKey": "032542ad2cb4a4c05c2e0c2d3693471c6668f1e3e563df60576459e242a60fe979",
+                "type": "CREDENTIAL_TYPE_API_KEY_P256"
+              },
+              "apiKeyId": "b8099273-37ba-4879-856b-38330ba0d915",
+              "apiKeyName": "bigtree_test_api_key_20250413_001",
+              "createdAt": { "seconds": "1744518227", "nanos": "0" },
+              "updatedAt": { "seconds": "1744518227", "nanos": "0" }
+            }
+          ],
+          "userTags": [],
+          "oauthProviders": [],
+          "createdAt": { "seconds": "1744517935", "nanos": "0" },
+          "updatedAt": { "seconds": "1744517935", "nanos": "0" }
+        },
+        "activityId": "01967b7b-e980-743b-9d48-528a6fdd32c1",
+        "selection": "VOTE_SELECTION_APPROVED",
+        "message": "{\"parameters\":{\"subOrganizationName\":\"User - Ad14ndBoyZ9t7MbyzeYMJPEgYP5NCWYKBregjnTynFkx\",\"rootUsers\":[{\"userName\":\"User - Ad14ndBoyZ9t7MbyzeYMJPEgYP5NCWYKBregjnTynFkx\",\"apiKeys\":[{\"apiKeyName\":\"User - Ad14ndBoyZ9t7MbyzeYMJPEgYP5NCWYKBregjnTynFkx\",\"publicKey\":\"8ef22a50068aeb1c2617247f6151f58b86a3016e2638c8c591a1b211da6a17f5\",\"curveType\":\"API_KEY_CURVE_ED25519\"}],\"authenticators\":[],\"oauthProviders\":[]},{\"userName\":\"Delegated Account - Ad14ndBoyZ9t7MbyzeYMJPEgYP5NCWYKBregjnTynFkx\",\"apiKeys\":[{\"apiKeyName\":\"Delegated Account - Ad14ndBoyZ9t7MbyzeYMJPEgYP5NCWYKBregjnTynFkx\",\"publicKey\":\"02954aceda7ef07cd73803fd4039128b3827dc3fa2018e3d7a3aa059e1cbed0109\",\"curveType\":\"API_KEY_CURVE_SECP256K1\"}],\"authenticators\":[],\"oauthProviders\":[]}],\"rootQuorumThreshold\":1,\"wallet\":{\"walletName\":\"Default Solana Wallet\",\"accounts\":[{\"curve\":\"CURVE_ED25519\",\"pathFormat\":\"PATH_FORMAT_BIP32\",\"path\":\"m/44'/501'/0'/0'\",\"addressFormat\":\"ADDRESS_FORMAT_SOLANA\"}],\"mnemonicLength\":12}},\"organizationId\":\"989431c1-d42d-41c5-a44a-863a59c85166\",\"timestampMs\":\"1745828440186\",\"type\":\"ACTIVITY_TYPE_CREATE_SUB_ORGANIZATION_V7\"}",
+        "publicKey": "032542ad2cb4a4c05c2e0c2d3693471c6668f1e3e563df60576459e242a60fe979",
+        "signature": "304402205783ab29327df085e8292530105ce8f02e6d730e01e4843ad325b6b606da60b202202f630e99e4c706ef749648511df317c96532a025793939fa907231f32755b7a6",
+        "scheme": "SIGNATURE_SCHEME_TK_API_P256",
+        "createdAt": { "seconds": "1745828440", "nanos": "0" }
+      }
+    ],
+    "fingerprint": "sha256:51d6e17282632064c6ecd751df8a369428269f7a7bace98ee667415956b1f8ad",
+    "canApprove": false,
+    "canReject": true,
+    "createdAt": { "seconds": "1745828440", "nanos": "0" },
+    "updatedAt": { "seconds": "1745828440", "nanos": "0" },
+    "failure": null
+  }
+}

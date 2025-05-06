@@ -1,0 +1,49 @@
+{
+  "users": [
+    {
+      "userId": "eed4d86a-708c-4414-aed7-58ee60af3c86",
+      "userName": "ccnutty@proton.me",
+      "userEmail": "ccnutty@proton.me",
+      "authenticators": [],
+      "apiKeys": [
+        {
+          "credential": {
+            "publicKey": "02f607dad9b9f404279973acc5cc7a12c9fb3c577966fa9c54c95a062be3200aa1",
+            "type": "CREDENTIAL_TYPE_OTP_AUTH_KEY_P256"
+          },
+          "apiKeyId": "d370a511-0df6-454a-ba79-cbc36e777277",
+          "apiKeyName": "OTP Auth - 1746242886",
+          "createdAt": { "seconds": "1746242886", "nanos": "0" },
+          "updatedAt": { "seconds": "1746242886", "nanos": "0" },
+          "expirationSeconds": "3600"
+        },
+        {
+          "credential": {
+            "publicKey": "03f914f72412853d213e38979c658b70e42f184bf929aac6d033114ed33d7aacdb",
+            "type": "CREDENTIAL_TYPE_OTP_AUTH_KEY_P256"
+          },
+          "apiKeyId": "e5c6ae70-bdee-4992-967f-f2eea0f8caf1",
+          "apiKeyName": "OTP Auth - 1746243487",
+          "createdAt": { "seconds": "1746243487", "nanos": "0" },
+          "updatedAt": { "seconds": "1746243487", "nanos": "0" },
+          "expirationSeconds": "3600"
+        },
+        {
+          "credential": {
+            "publicKey": "029c84c50c5e13380a95a6158d72c66e7be70c2baca5fece947f1a73a79c7ca4b2",
+            "type": "CREDENTIAL_TYPE_OTP_AUTH_KEY_P256"
+          },
+          "apiKeyId": "487e4d53-fa96-4bf8-8597-34fd5ae8f0d4",
+          "apiKeyName": "OTP Auth - 1746243931",
+          "createdAt": { "seconds": "1746243931", "nanos": "0" },
+          "updatedAt": { "seconds": "1746243931", "nanos": "0" },
+          "expirationSeconds": "3600"
+        }
+      ],
+      "userTags": [],
+      "oauthProviders": [],
+      "createdAt": { "seconds": "1745419867", "nanos": "0" },
+      "updatedAt": { "seconds": "1745419867", "nanos": "0" }
+    }
+  ]
+}

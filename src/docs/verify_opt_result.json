@@ -1,0 +1,32 @@
+{
+  "sessionType": "SESSION_TYPE_READ_WRITE",
+  "userId": "eed4d86a-708c-4414-aed7-58ee60af3c86",
+  "organizationId": "48a3a6d6-83aa-4258-be7b-eaa0eed0b6fa",
+  "expiry": 1746247087825,
+  "token": "n2CdRFjEUiVJDNzy3nW6vmRCpWUDFvXPxMH7St5qczpARgYn44gBgu4WK3nNpLNSnRhkyLsH1HLsWMMgxJvpvGbGDHc4DFakUnGTMF8xANi4DzL5hwM",
+  "subOrganizationId": "48a3a6d6-83aa-4258-be7b-eaa0eed0b6fa",
+  "wallets": [
+    {
+      "walletId": "11f71ae7-854c-5be4-9621-87479f344305",
+      "accounts": [
+        {
+          "chainId": 60,
+          "curve": "CURVE_SECP256K1",
+          "pathFormat": "PATH_FORMAT_BIP32",
+          "path": "m/44'/60'/0'/0/0",
+          "addressFormat": "ADDRESS_FORMAT_ETHEREUM",
+          "address": "0xADf5ca0583239584a848f79eAAE1fD09Cff4639f"
+        },
+        {
+          "chainId": 501,
+          "curve": "CURVE_ED25519",
+          "pathFormat": "PATH_FORMAT_BIP32",
+          "path": "m/44'/501'/0'/0'",
+          "addressFormat": "ADDRESS_FORMAT_SOLANA",
+          "address": "5Kek9HZEo9kmS9Ab3YCpQbGVkPMe95kGFPfVApPAW2i2"
+        }
+      ]
+    }
+  ],
+  "rootUserIds": []
+}

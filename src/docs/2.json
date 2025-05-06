@@ -1,0 +1,68 @@
+{
+  "userId": "26ce0e14-ebf6-4fa7-8ee3-0a1be6ae8e95",
+  "apiKeyId": "9068971a-dc53-4fe8-adf3-46dd5bd40856",
+  "credentialBundle": "21YNeiangE1voF7moTyzoYvjYRnjse5CcMvqqKTYbrnUEEmY3pqU2wsyaqD6nFgaoa5hX3nNHTphipmuMHKBDFdzS6zzfyduNQWkQq1nnm1om9wPUK9X",
+  "activity": {
+    "id": "0196952c-2513-77c8-ab9f-e4d45e6bf2f7",
+    "organizationId": "6cee18cc-0264-45c5-b1d4-514b4c197b65",
+    "status": "ACTIVITY_STATUS_COMPLETED",
+    "type": "ACTIVITY_TYPE_OTP_AUTH",
+    "intent": {
+      "otpAuthIntent": {
+        "otpId": "40deb014-0dca-4a5e-bada-65f02c2c3b7e",
+        "otpCode": "739745",
+        "targetPublicKey": "04df98a60af4702237c457f4e4f60dd2d91438e5941253c1b84788e77bee96e9de799197c5c4fbca80b77c9d20ddf94be38b5e5fe0eb87982506a0f8314c1f6020",
+        "expirationSeconds": "2592000"
+      }
+    },
+    "result": {
+      "otpAuthResult": {
+        "userId": "26ce0e14-ebf6-4fa7-8ee3-0a1be6ae8e95",
+        "apiKeyId": "9068971a-dc53-4fe8-adf3-46dd5bd40856",
+        "credentialBundle": "21YNeiangE1voF7moTyzoYvjYRnjse5CcMvqqKTYbrnUEEmY3pqU2wsyaqD6nFgaoa5hX3nNHTphipmuMHKBDFdzS6zzfyduNQWkQq1nnm1om9wPUK9X"
+      }
+    },
+    "votes": [
+      {
+        "id": "20b24d93-caad-471d-b9a7-ab813fb76366",
+        "userId": "56a7eca9-01e7-4a95-8592-a2ad589406da",
+        "user": null,
+        "activityId": "0196952c-2513-77c8-ab9f-e4d45e6bf2f7",
+        "selection": "VOTE_SELECTION_APPROVED",
+        "message": "{\"parameters\":{\"otpId\":\"40deb014-0dca-4a5e-bada-65f02c2c3b7e\",\"otpCode\":\"739745\",\"targetPublicKey\":\"04df98a60af4702237c457f4e4f60dd2d91438e5941253c1b84788e77bee96e9de799197c5c4fbca80b77c9d20ddf94be38b5e5fe0eb87982506a0f8314c1f6020\",\"expirationSeconds\":\"2592000\"},\"organizationId\":\"6cee18cc-0264-45c5-b1d4-514b4c197b65\",\"timestampMs\":\"1746259418703\",\"type\":\"ACTIVITY_TYPE_OTP_AUTH\"}",
+        "publicKey": "032542ad2cb4a4c05c2e0c2d3693471c6668f1e3e563df60576459e242a60fe979",
+        "signature": "304402201b017d038bb0aff5b27b1053cafb7dd261bd5ddf3f68db9893798c4e8201327f0220436215f59a82b502a475cc14eeb884a01f17d00a9f875ebcfabd29c4b01243ae",
+        "scheme": "SIGNATURE_SCHEME_TK_API_P256",
+        "createdAt": { "seconds": "1746259420", "nanos": "0" }
+      }
+    ],
+    "fingerprint": "sha256:0d6faa53699c050ca57a1d77f59c394b4216326f974739e9711051c2d83a6f78",
+    "canApprove": false,
+    "canReject": true,
+    "createdAt": { "seconds": "1746259420", "nanos": "0" },
+    "updatedAt": { "seconds": "1746259420", "nanos": "0" },
+    "failure": null
+  },
+  "subOrganizationId": "6cee18cc-0264-45c5-b1d4-514b4c197b65",
+  "wallets": [
+    {
+      "walletId": "d6d6e9c6-da8b-51c2-b14d-da3ef0ccd198",
+      "accounts": [
+        {
+          "chainId": 501,
+          "curve": "CURVE_ED25519",
+          "pathFormat": "PATH_FORMAT_BIP32",
+          "path": "m/44'/501'/0'/0'",
+          "addressFormat": "ADDRESS_FORMAT_SOLANA",
+          "address": "FgtbkCFNjFDkxWpSEwxvLYaNPMj2HMivBA8zanbgah4m"
+        }
+      ]
+    }
+  ],
+  "rootUsers": [
+    {
+      "userId": "26ce0e14-ebf6-4fa7-8ee3-0a1be6ae8e95",
+      "userName": "saimoya777888@gmail.com"
+    }
+  ]
+}

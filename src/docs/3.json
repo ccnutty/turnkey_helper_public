@@ -1,0 +1,46 @@
+{
+  "userId": "26ce0e14-ebf6-4fa7-8ee3-0a1be6ae8e95",
+  "apiKeyId": "8eee21e2-deb1-4609-8e80-9d835cf070d0",
+  "credentialBundle": "eakeMmCYB6Nkc3z6zgUQejmaWzRrcfnSv9oNXvvpCcApCncVSyNSvNxKzEVJWtGinwwvRBzhKR9C3amy1MrXj6egnFVWRpJGk4g8FgHjbjGgYF44nEN",
+  "activity": {
+    "id": "019695a0-88be-74d8-bbfe-079a465be949",
+    "organizationId": "6cee18cc-0264-45c5-b1d4-514b4c197b65",
+    "status": "ACTIVITY_STATUS_COMPLETED",
+    "type": "ACTIVITY_TYPE_OTP_AUTH",
+    "intent": {
+      "otpAuthIntent": {
+        "otpId": "1047ca81-51ba-4f19-abec-8f8fd85d0126",
+        "otpCode": "190854",
+        "targetPublicKey": "04df98a60af4702237c457f4e4f60dd2d91438e5941253c1b84788e77bee96e9de799197c5c4fbca80b77c9d20ddf94be38b5e5fe0eb87982506a0f8314c1f6020",
+        "expirationSeconds": "2592000"
+      }
+    },
+    "result": {
+      "otpAuthResult": {
+        "userId": "26ce0e14-ebf6-4fa7-8ee3-0a1be6ae8e95",
+        "apiKeyId": "8eee21e2-deb1-4609-8e80-9d835cf070d0",
+        "credentialBundle": "eakeMmCYB6Nkc3z6zgUQejmaWzRrcfnSv9oNXvvpCcApCncVSyNSvNxKzEVJWtGinwwvRBzhKR9C3amy1MrXj6egnFVWRpJGk4g8FgHjbjGgYF44nEN"
+      }
+    },
+    "votes": [
+      {
+        "id": "6c647e37-28ca-4a07-aa29-cabf22f0a88d",
+        "userId": "56a7eca9-01e7-4a95-8592-a2ad589406da",
+        "user": null,
+        "activityId": "019695a0-88be-74d8-bbfe-079a465be949",
+        "selection": "VOTE_SELECTION_APPROVED",
+        "message": "{\"parameters\":{\"otpId\":\"1047ca81-51ba-4f19-abec-8f8fd85d0126\",\"otpCode\":\"190854\",\"targetPublicKey\":\"04df98a60af4702237c457f4e4f60dd2d91438e5941253c1b84788e77bee96e9de799197c5c4fbca80b77c9d20ddf94be38b5e5fe0eb87982506a0f8314c1f6020\",\"expirationSeconds\":\"2592000\"},\"organizationId\":\"6cee18cc-0264-45c5-b1d4-514b4c197b65\",\"timestampMs\":\"1746267047142\",\"type\":\"ACTIVITY_TYPE_OTP_AUTH\"}",
+        "publicKey": "032542ad2cb4a4c05c2e0c2d3693471c6668f1e3e563df60576459e242a60fe979",
+        "signature": "3046022100ac5713bea551ca7a02720dca190204c1f5c38706f2a56005d69907a549e34508022100d7ed9dd40f0692d7d72a6f5c40f8d9aff26d596ac1e21a8cccf3e0e1944e61ec",
+        "scheme": "SIGNATURE_SCHEME_TK_API_P256",
+        "createdAt": { "seconds": "1746267048", "nanos": "0" }
+      }
+    ],
+    "fingerprint": "sha256:bbda26fb43c9ca51cb636083d85a9ffa730c0b5753bb8e82327dd5936f9373f7",
+    "canApprove": false,
+    "canReject": true,
+    "createdAt": { "seconds": "1746267048", "nanos": "0" },
+    "updatedAt": { "seconds": "1746267048", "nanos": "0" },
+    "failure": null
+  }
+}
